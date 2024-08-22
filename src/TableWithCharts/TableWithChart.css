@@ -1,0 +1,64 @@
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.flex-header {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.flex-cell {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #fff;
+    text-align: right;
+}
+
+.indicator-cell {
+    text-align: left;
+}
+
+.percentage-cell {
+    border-radius: 4px;
+}
+
+.chart-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.flex-row.active + .chart-container {
+    max-height: 500px;
+}
+
+.flex-cell.yesterday {
+    border-right: none;
+    flex: 0.5;
+}
+
+.flex-cell.percentage-cell {
+    border-left: none;
+    flex: 0.5;
+}
+
+.cell-green {
+    background-color: #e6ffe6;
+}
+
+.cell-red {
+    background-color: #ffe6e6;
+}
+
+.cell-gray {
+    background-color: #f0f0f0;
+}
