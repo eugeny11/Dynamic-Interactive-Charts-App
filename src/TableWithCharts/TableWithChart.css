@@ -1,7 +1,8 @@
 .flex-table {
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     border: 1px solid #ddd;
 }
 
@@ -61,4 +62,50 @@
 
 .cell-gray {
     background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .flex-cell {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .flex-cell.yesterday,
+    .flex-cell.percentage-cell {
+        flex: 1;
+        border: 1px solid #ddd; /* Восстанавливаем границы */
+    }
+
+    .flex-row.active + .chart-container {
+        max-height: 300px; /* Уменьшение высоты графика для мобильных */
+    }
+
+    .chart-container {
+        max-height: 0;
+    }
+
+    /* Уменьшение размера шрифта заголовков на мобильных */
+    .flex-header {
+        font-size: 16px;
+    }
+
+    /* Дополнительное уменьшение размера шрифта и отступов на маленьких экранах */
+    @media (max-width: 480px) {
+        .flex-cell {
+            padding: 6px;
+            font-size: 12px;
+        }
+
+        .flex-header {
+            font-size: 14px;
+        }
+
+        .flex-row.active + .chart-container {
+            max-height: 200px;
+        }
+    }
 }
