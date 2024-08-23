@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+## My Frontend Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a frontend application developed using React.js. The application demonstrates a dynamic table with interactive charts. The table data updates dynamically, and each row of the table is associated with a specific chart that displays when clicked.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- **Dynamic Table**: Displays data with customizable styles and colors.
+- **Interactive Charts**: Click on a table row to display a related chart.
+- **Responsive Design**: The layout is optimized for both desktop and mobile devices.
+- **Automatic Deployment**: Integrated with GitHub for continuous deployment on Vercel.
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install and run the application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/your-repository-name.git
+    ```
+   
+2. **Navigate to the project directory**:
+    ```bash
+    cd your-repository-name
+    ```
+   
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+   
+4. **Run the application**:
+    ```bash
+    npm start
+    ```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. **Open your browser** and go to `http://localhost:3000` to view the application.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The application is automatically deployed to Vercel. Any changes pushed to the `main` branch are automatically built and deployed.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Моё фронтенд-приложение
+
+Это фронтенд-приложение, разработанное с использованием React.js. Приложение демонстрирует динамическую таблицу с интерактивными графиками. Данные таблицы обновляются динамически, и каждая строка таблицы связана с конкретным графиком, который отображается при нажатии.
+
+### Особенности
+
+- **Динамическая таблица**: Отображает данные с настраиваемыми стилями и цветами.
+- **Интерактивные графики**: Нажмите на строку таблицы, чтобы отобразить связанный график.
+- **Адаптивный дизайн**: Макет оптимизирован как для настольных, так и для мобильных устройств.
+- **Автоматическое развёртывание**: Интегрировано с GitHub для непрерывного развёртывания на Vercel.
+
+### Установка
+
+Чтобы установить и запустить приложение локально, выполните следующие шаги:
+
+1. **Клонируйте репозиторий**:
+    ```bash
+    git clone https://github.com/yourusername/your-repository-name.git
+    ```
+   
+2. **Перейдите в директорию проекта**:
+    ```bash
+    cd your-repository-name
+    ```
+   
+3. **Установите зависимости**:
+    ```bash
+    npm install
+    ```
+   
+4. **Запустите приложение**:
+    ```bash
+    npm start
+    ```
+
+5. **Откройте браузер** и перейдите по адресу `http://localhost:3000`, чтобы увидеть приложение.
+
+### Развёртывание
+
+Приложение автоматически развёртывается на Vercel. Любые изменения, отправленные в ветку `main`, автоматически собираются и развёртываются.
