@@ -2,6 +2,8 @@
 
 This is a frontend application developed using React.js. The application demonstrates a dynamic table with interactive charts. The table data updates dynamically, and each row of the table is associated with a specific chart that displays when clicked.
 
+![Demo Screenshot](./Screenshot_1.jpg)
+
 ### Features
 
 - **Dynamic Table**: Displays data with customizable styles and colors.
